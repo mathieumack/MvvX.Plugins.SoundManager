@@ -9,7 +9,7 @@ Manage the sound on your device with a mvvmcross plugin.
 
 ## Nuget
 
-[![NuGet package](https://buildstats.info/nuget/MvvX.Plugins.HockeyApp?includePreReleases=true)](https://nuget.org/packages/MvvX.Plugins.SoundManager)
+[![NuGet package](https://buildstats.info/nuget/MvvX.Plugins.SoundManager?includePreReleases=true)](https://nuget.org/packages/MvvX.Plugins.SoundManager)
 
 The plugin for application that use https://mvvmcross.com/.
 
