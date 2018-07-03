@@ -1,5 +1,7 @@
 ﻿using MahApps.Metro.Controls;
 using MvvX.Plugins.SoundManager.Wpf;
+using System;
+using System.IO;
 using System.Timers;
 using System.Windows;
 
@@ -27,6 +29,8 @@ namespace MvvX.Plugins.SoundManager.Client.Wpf
             timer = new Timer(2000);
             timer.Elapsed += Timer_Elapsed;
             timer.Start();
+
+            PlaySoundFilePath1.Text = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "A-Tone-His_Self-1266414414.wav");
         }
 
         private void Timer_Elapsed(object sender, ElapsedEventArgs e)
@@ -63,6 +67,11 @@ namespace MvvX.Plugins.SoundManager.Client.Wpf
             }
             else
                 e.Handled = true;
+        }
+
+        private void Playsound1_Click(object sender, RoutedEventArgs e)
+        {
+            manager.Play(PlaySoundFilePath1.Text);
         }
     }
 }

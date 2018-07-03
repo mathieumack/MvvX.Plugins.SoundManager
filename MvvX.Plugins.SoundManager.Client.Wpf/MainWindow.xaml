@@ -12,6 +12,8 @@
             <RowDefinition Height="Auto"></RowDefinition>
             <RowDefinition Height="Auto"></RowDefinition>
             <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="250"></ColumnDefinition>
@@ -23,5 +25,14 @@
         <Slider Grid.Column="1" Grid.Row="1" Margin="10" Minimum="0" Maximum="100" Interval="1" Name="sliderVolume" ValueChanged="sliderVolume_ValueChanged"></Slider>
         <TextBlock Grid.Column="0" Grid.Row="2" Text="Mute ?" Margin="10" Width="300"></TextBlock>
         <CheckBox Grid.Column="1" Grid.Row="2" Margin="10" Name="SoundMute" Checked="SoundMute_Checked" Unchecked="SoundMute_Unchecked"></CheckBox>
+        <TextBlock Grid.Column="0" Grid.Row="3" Text="Play sounds" Margin="10" Width="300"></TextBlock>
+        <Grid Grid.Column="1" Grid.Row="3" Margin="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="75"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <TextBox Name="PlaySoundFilePath1" Grid.Column="0"></TextBox>
+            <Button Content="Play" Name="Playsound1" Grid.Column="1" Click="Playsound1_Click"></Button>
+        </Grid>
     </Grid>
 </Controls:MetroWindow>

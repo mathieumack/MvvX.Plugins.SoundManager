@@ -26,5 +26,12 @@
         /// </summary>
         /// <param name="isMuted">true to mute the master volume, false to unmute</param>
         void SetMasterVolumeMute(bool isMuted);
+
+        /// <summary>
+        /// Play a media file on the computer
+        /// Actually, the media must be a .wav file
+        /// </summary>
+        /// <param name="soundFilePath"></param>
+        void Play(string soundFilePath);
     }
 }

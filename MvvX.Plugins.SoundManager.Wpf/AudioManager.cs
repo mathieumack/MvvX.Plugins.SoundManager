@@ -304,6 +304,21 @@ namespace MvvX.Plugins.SoundManager.Wpf
 
         #endregion
 
+        #region Play sounds
+
+        /// <summary>
+        /// Play a media file on the computer
+        /// </summary>
+        /// <param name="soundFilePath"></param>
+        public void Play(string soundFilePath)
+        {
+            using (var player = new System.Media.SoundPlayer(soundFilePath))
+            {
+                player.Play();
+            }
+        }
+
+        #endregion
     }
 
     #region Abstracted COM interfaces from Windows CoreAudio API

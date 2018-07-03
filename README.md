@@ -28,3 +28,6 @@ This plugin is compatible with MvvmCross 5.0.5 min.
 
 ## Support
 If you have any questions, problems or suggestions, create an issue.
+
+## Ressource
+The media file (A-Tone-His_Self-1266414414.wav) comes from http://soundbible.com/1815-A-Tone.html
