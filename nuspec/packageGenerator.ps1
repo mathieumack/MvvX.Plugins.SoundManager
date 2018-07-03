@@ -11,7 +11,7 @@ Set-Location -Path $locationNuspec
 write-host "Update the nuget.exe file" -foreground "DarkGray"
 .\NuGet update -self
 
-$strPath = $location + '\MvvX.Plugins.SoundManager\MvvX.Plugins.SoundManager\bin\Release\MvvX.Plugins.SoundManager.dll'
+$strPath = $location + '\MvvX.Plugins.SoundManager\bin\Release\MvvX.Plugins.SoundManager.dll'
 
 $VersionInfos = [System.Diagnostics.FileVersionInfo]::GetVersionInfo($strPath)
 $ProductVersion = $VersionInfos.ProductVersion
