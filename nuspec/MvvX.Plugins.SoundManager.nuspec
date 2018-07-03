@@ -34,13 +34,13 @@
     </metadata>
     <files>     
         <!-- ALL -->
-        <file src="..\MvvX.Plugins.SoundManager\MvvX.Plugins.SoundManager\bin\Release\MvvX.Plugins.SoundManager.XML" target="lib\portable-net45+sl5+wp8+wpa81+win8+monoandroid+monotouch" />
-        <file src="..\MvvX.Plugins.SoundManager\MvvX.Plugins.SoundManager\bin\Release\MvvX.Plugins.SoundManager.dll" target="lib\portable-net45+sl5+wp8+wpa81+win8+monoandroid+monotouch" />
+        <file src="..\MvvX.Plugins.SoundManager\bin\Release\MvvX.Plugins.SoundManager.XML" target="lib\portable-net45+sl5+wp8+wpa81+win8+monoandroid+monotouch" />
+        <file src="..\MvvX.Plugins.SoundManager\bin\Release\MvvX.Plugins.SoundManager.dll" target="lib\portable-net45+sl5+wp8+wpa81+win8+monoandroid+monotouch" />
                 
         <!-- Windows (WPF) -->
-        <file src="..\MvvX.Plugins.SoundManager\MvvX.Plugins.SoundManager\bin\Release\MvvX.Plugins.SoundManager.XML" target="lib\net45" />
-        <file src="..\MvvX.Plugins.SoundManager\MvvX.Plugins.SoundManager\bin\Release\MvvX.Plugins.SoundManager.dll" target="lib\net45" />
-        <file src="..\MvvX.Plugins.SoundManager\MvvX.Plugins.SoundManager.Wpf\bin\Release\MvvX.Plugins.SoundManager.Wpf.dll" target="lib\net45" />
+        <file src="..\MvvX.Plugins.SoundManager\bin\Release\MvvX.Plugins.SoundManager.XML" target="lib\net45" />
+        <file src="..\MvvX.Plugins.SoundManager\bin\Release\MvvX.Plugins.SoundManager.dll" target="lib\net45" />
+        <file src="..\MvvX.Plugins.SoundManager.Wpf\bin\Release\MvvX.Plugins.SoundManager.Wpf.dll" target="lib\net45" />
 		<file src="BootstrapContent\OpenXMLSDKPluginBootstrap.cs.pp" target="content\net45\Bootstrap\SoundManagerPluginBootstrap.cs.pp" />
 		
         <!-- Android -->
