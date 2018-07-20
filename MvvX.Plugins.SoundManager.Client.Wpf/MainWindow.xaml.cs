@@ -37,7 +37,7 @@ namespace MvvX.Plugins.SoundManager.Client.Wpf
         {
             Dispatcher.Invoke(() => {
                 var mastervolume = manager.GetMasterVolume();
-                if ((double)sliderVolume.Value != mastervolume)
+                if (sliderVolume.Value != mastervolume)
                     sliderVolume.Value = manager.GetMasterVolume();
                 Soundvolumevalue.Text = mastervolume.ToString();
                 SoundMute.IsChecked = manager.GetMasterVolumeMute();
