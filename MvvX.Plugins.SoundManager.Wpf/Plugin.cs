@@ -7,10 +7,7 @@ namespace MvvX.Plugins.SoundManager.Wpf
     {
         public void Load()
         {
-            Mvx.RegisterType<IAudioManager>(() =>
-            {
-                return new AudioManager();
-            });
+            Mvx.RegisterSingleton<IAudioManager>(new AudioManager());
         }
     }
 }
