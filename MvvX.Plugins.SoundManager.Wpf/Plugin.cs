@@ -3,7 +3,6 @@ using MvvmCross.Plugin;
 
 namespace MvvX.Plugins.SoundManager.Wpf
 {
-
    [MvxPlugin]
     public class Plugin : IMvxPlugin
     {

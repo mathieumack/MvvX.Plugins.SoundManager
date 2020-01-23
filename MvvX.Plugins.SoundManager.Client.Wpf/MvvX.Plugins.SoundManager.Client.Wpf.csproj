@@ -104,19 +104,19 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="A-Tone-His_Self-1266414414.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\MvvX.Plugins.SoundManager.Wpf\MvvX.Plugins.SoundManager.Wpf.csproj">
-      <Project>{794E5FF0-930B-4A3D-8874-EA9DAD811679}</Project>
+      <Project>{794e5ff0-930b-4a3d-8874-ea9dad811679}</Project>
       <Name>MvvX.Plugins.SoundManager.Wpf</Name>
     </ProjectReference>
     <ProjectReference Include="..\MvvX.Plugins.SoundManager\MvvX.Plugins.SoundManager.csproj">
       <Project>{35d1968d-2c95-497b-bc7d-a286089be12f}</Project>
       <Name>MvvX.Plugins.SoundManager</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="A-Tone-His_Self-1266414414.wav">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
