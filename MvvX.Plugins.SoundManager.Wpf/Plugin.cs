@@ -1,13 +1,15 @@
-﻿using MvvmCross.Platform;
-using MvvmCross.Platform.Plugins;
+﻿using MvvmCross;
+using MvvmCross.Plugin;
 
 namespace MvvX.Plugins.SoundManager.Wpf
 {
+
+   [MvxPlugin]
     public class Plugin : IMvxPlugin
     {
         public void Load()
         {
-            Mvx.RegisterSingleton<IAudioManager>(new AudioManager());
+            Mvx.IoCProvider.RegisterSingleton<IAudioManager>(new AudioManager());
         }
     }
 }

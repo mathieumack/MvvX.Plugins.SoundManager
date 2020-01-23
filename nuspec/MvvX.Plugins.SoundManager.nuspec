@@ -14,7 +14,7 @@
         <dependencies>
           <group>
             <!-- Always include regardless of target framework -->
-            <dependency id="MvvmCross.Platform" version="5.0.5" />
+            <dependency id="MvvmCross.Platform" version="6.4.2" />
         </group>
         <!--
           <group targetFramework="net45">
@@ -34,13 +34,13 @@
     </metadata>
     <files>     
         <!-- ALL -->
-        <file src="..\MvvX.Plugins.SoundManager\bin\Release\MvvX.Plugins.SoundManager.XML" target="lib\portable-net45+sl5+wp8+wpa81+win8+monoandroid+monotouch" />
-        <file src="..\MvvX.Plugins.SoundManager\bin\Release\MvvX.Plugins.SoundManager.dll" target="lib\portable-net45+sl5+wp8+wpa81+win8+monoandroid+monotouch" />
+        <file src="..\MvvX.Plugins.SoundManager\bin\Release\netstandard2.0\MvvX.Plugins.SoundManager.XML" target="lib\netstandard2.0" />
+        <file src="..\MvvX.Plugins.SoundManager\bin\Release\netstandard2.0\MvvX.Plugins.SoundManager.dll" target="lib\netstandard2.0" />
                 
         <!-- Windows (WPF) -->
-        <file src="..\MvvX.Plugins.SoundManager\bin\Release\MvvX.Plugins.SoundManager.XML" target="lib\net45" />
-        <file src="..\MvvX.Plugins.SoundManager\bin\Release\MvvX.Plugins.SoundManager.dll" target="lib\net45" />
-        <file src="..\MvvX.Plugins.SoundManager.Wpf\bin\Release\MvvX.Plugins.SoundManager.Wpf.dll" target="lib\net45" />
+        <file src="..\MvvX.Plugins.SoundManager\bin\Release\netstandard2.0\MvvX.Plugins.SoundManager.XML" target="lib\netstandard2.0" />
+        <file src="..\MvvX.Plugins.SoundManager\bin\Release\netstandard2.0\MvvX.Plugins.SoundManager.dll" target="lib\netstandard2.0" />
+        <file src="..\MvvX.Plugins.SoundManager.Wpf\bin\Release\MvvX.Plugins.SoundManager.Wpf.dll" target="lib\net461" />
 		<file src="BootstrapContent\SoundManagerPluginBootstrap.cs.pp" target="content\net45\Bootstrap\SoundManagerPluginBootstrap.cs.pp" />
 		
         <!-- Android -->
